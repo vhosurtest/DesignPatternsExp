@@ -1,7 +1,7 @@
 package com.vhosur.learn.designPatterns.behavioral.chainOfResponsibility;
 
 public class DataReader {
-    private Handler next;
+    private final Handler next;
 
     public DataReader(Handler next) {
         this.next = next;
